@@ -30,8 +30,6 @@ def find_the_closest_value_index_low(term, government):
 
     return count - 1
 
-
-
 if __name__ == "__main__":
 
     corporate = [] #global list variable for storing corporate bonds

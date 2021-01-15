@@ -18,7 +18,6 @@ def find_the_closest_value_index(term, government):
         absolute_difference.append(abs(term-float(bond[2])))
     return absolute_difference.index(min(absolute_difference))
 
-
 if __name__ == "__main__":
 
     corporate = [] #global list variable for storing corporate bonds
